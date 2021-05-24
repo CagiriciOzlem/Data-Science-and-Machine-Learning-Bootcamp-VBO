@@ -1,4 +1,5 @@
 # For creating the 'virtualenv' for the project, use the following command :
+import seaborn as sns
 
 condav create - n vbo_env
 
