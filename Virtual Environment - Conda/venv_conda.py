@@ -7,6 +7,7 @@ conda create - n vbo_env
     vbo_env : name of the new virtual environment to be created
 """
 
+
 # For creating the 'virtualenv' with spesific version of python, use the following command :
 
 conda create - n vbo_env python = 3
@@ -23,8 +24,7 @@ conda list
 # - If the version is specified, the package is installed with the relevant version,
 # - if not, the installation is performed with the latest version.
 
-conda install numpy pandas = 1.2
-.1
+conda install numpy pandas = 1.2.1
 
 """
     the latest version of numpy & 1.2.1 version of the pandas are installed
