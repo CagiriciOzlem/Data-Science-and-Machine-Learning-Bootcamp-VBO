@@ -13,12 +13,14 @@ help(str.capitalize)
 
 ################################# 1.len(str) ########################################
 
-# The method is used  to get the length of the given string, array, list, tuple, dictionary, etc.
+# The method is used to get the length of the given string, array, list, tuple, dictionary, etc.
 
 notes = [1, 2, 3, 4]
 len(notes)
 
 ################################ 2. count() ########################################
+
+# Return the number of times a value in the list:
 
 fruits = ['apple', 'banana', 'cherry','strawberry','apple', 'plum', 'watermelon', 'banana']
 fruits.count("banana")
@@ -27,10 +29,8 @@ fruits.count("strawberry")
 
 ################################# 3.upper() & lower() ########################################
 
-#  The method is used  to get the length of the given string, array, list, tuple, dictionary, etc.
-
-    # upper() method is converts all the characters of a string to uppercase.
-    # lower() method is converts all the characters of a string to lowercase.
+ # upper() method converts all the characters of a string to uppercase.
+ # lower() method converts all the characters of a string to lowercase.
 
 students = ["John", "Mark", "Venessa", "Mariam"]
 students[0].upper()
@@ -38,7 +38,7 @@ students[2].lower()
 
 ################################# 4.capitalize() ########################################
 
-# The method converts the first character of the string to a capital (uppercase) letter while making all other characters to lowercase.
+# The method converts the first character of the string to a capital (upper case) letter while making all other characters to lower case.
 
 students = ["JOHN", "MARK", "VENESSA", "MARIAM"]
 students[2].capitalize()
@@ -61,13 +61,14 @@ text.replace(" is", " was")
 
 
 ############################ 7.str.maketrans(x, y, z) & translate() ########################################
+
 # translate() is used to make transitions of the characters in the string.
     #  This function uses the translation mapping specified using the maketrans().
 
 
 # maketrans () method provides  to create character mappings conversion table. The method  takes 3 parameters;
-    # x: Specifies the list of characters that need to be replaced.
-    # y: The list of characters by which is to be transformed.
+    # x : Specifies the list of characters that need to be replaced.
+    # y : The list of characters by which is to be transformed.
     # z : Specifies the list of characters that needs to be deleted.
 
 
@@ -84,7 +85,7 @@ text.translate(text_conversion)
 ################################# 8. strip(char) ########################################
 
 # Removes leading and trailing spaces of the given characters based on its default value and returns it without spaces.
-#  However, if a different expression is specified instead of "character", strip(character = optional) removes them and returns the string.
+#  However, if a different expression is specified instead of "char", strip(char = optional) removes them and returns the string.
 
 print(" Hello AI ".strip())
 print("**Hello AI!**".strip("**"))
@@ -147,8 +148,9 @@ letters.index("a",2)
 
 ################################ 14. startswith() & endswith() ########################################
 
-# startswith() method returns True if a string starts with the specified prefix(string). However it is case sensitive.
-# endswith() method returns True if a string ends with the specified prefix(string). However it is case sensitive.
+# startswith() method returns True if a string starts with the specified prefix(string). 
+# endswith() method returns True if a string ends with the specified prefix(string). 
+    # Note : Both of them are case sensitive.
 
 text ="Python is easy to learn"
 text.startswith("Python")
@@ -180,7 +182,8 @@ print(sorted(dict_obj))
 
 
 ################################ 16. Join() ########################################
-# A string method which returns a string in which the elements of sequence have been joined by str separator.
+
+# The join() method returns a string in which the elements of sequence have been joined by str separator.
 
 text = ["A","string","method","which","is","used","to","concatenate","the","elements"]
 sep = " "
@@ -194,7 +197,7 @@ seq = ("a", "b", "c")
 
 ################################ 17. str.contains() ########################################
 
-# The contains() is a string method that checks if a string contains the given character.
+# The contains() method is a string method that checks if a string contains the given character.
 
 fruits = ['apple', 'banana', 'cherry','strawberry','apple', 'plum', 'watermelon', 'apple', 'banana']
 
