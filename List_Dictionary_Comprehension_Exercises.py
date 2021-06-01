@@ -100,7 +100,7 @@ df = sns.load_dataset("car_crashes")
 
 # Example - 1:
 
-## "salary_dict" shows amounts of the employees.Let's calculate new salaries of the employees after the salary increase by using dictionary comprehension.
+## "salary_dict" shows amounts of the employees. Let's calculate new salaries of the employees after the salary increase by using dictionary comprehension.
     # Note : If the salary amount is 7500 TL or more, 15% raise, , otherwise 20% increase will be applied.
     # Now, let's create a dictionary (new_dictionary) using dictionary comprehension.
 
@@ -137,12 +137,12 @@ print(dict_odd)
 
 # Example - 4:
 
-# Task - 1 : Load Titanic dataset using Seaborn library.
-# Task - 2 : Create a dictionary by using titanic dataframe where the variable "PassengerId" is the key and the list of numeric variables is the value
+# Task - 1 : Import Titanic dataset using Seaborn library.
+# Task - 2 : Create a dictionary by using titanic dataframe where the "PassengerId" values is the key and the list of numeric variables is the value
 
 
 # Task - 1 : Load Titanic dataset using Seaborn library.
-# Task - 2 : Create a dictionary by using titanic dataframe where the variable "PassengerId" is the key and the list of numeric variables is the value
+# Task - 2 : Create a dictionary by using titanic dataframe where the values of the variable "PassengerId" is the key and the list of numeric variables is the value
 
 
 # before
