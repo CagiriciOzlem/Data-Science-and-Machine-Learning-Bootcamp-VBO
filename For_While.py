@@ -16,7 +16,7 @@ def calc_waige_raise(salary):
         waige_raise = 0.30
     return(waige_raise)
 
-# Let's define a function that returns the new salary amount increase according to waige increase:
+# Now, let's define a function that returns the new salary amount increase according to waige increase:
 def new_salary(salary):
     waige_raise = calc_waige_raise(salary)
     new_salary = salary + salary * waige_raise
