@@ -40,7 +40,8 @@ def standardization(a, p):
 
 
 # Now let's define a new function called "all_calculations", which calls the "calculate function" to provide an argument to the "standardization" function:
-    # Note: The basic parameters of all_calculations function are a & p. However, since the argument "a" is derived from the parameters varm, moisture, charge, these parameters should also be given as input to the function.
+    # Note: The basic parameters of all_calculations function are a & p. However, since the argument "a" is derived from the parameters varm, moisture, charge, these 
+    # parameters should also be given as input to the function.
 
 def all_calculations(varm, moisture, charge, p):
     a = calculate(varm, moisture, charge)
